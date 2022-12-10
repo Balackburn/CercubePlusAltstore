@@ -4,12 +4,12 @@
   "apps": [
     {
       "beta": false,
-      "name": "Youtube (Cercube+)",
+      "name": "Youtube (Cercube+Extra)",
       "bundleIdentifier": "com.google.ios.youtube",
-      "developerName": "Alfhaily & Qn_",
+      "developerName": "Alfhaily & Arichorn",
       "subtitle": "Cercube with extra features!",
       "version": "v17.48.2-5.3.12",
-      "versionDate": "2022-11-06T16:00:00-01:00",
+      "versionDate": "2022-12-09T16:00:00-01:00",
       "versionDescription": "v17.48.2-5.3.12 : The changelog can be found at\nhttps://github.com/arichorn/CercubePlusExtra/releases/latest",
       "downloadURL": "https://github.com/arichorn/CercubePlusExtra/releases/download/v17.48.2-5.3.12-(37)/CercubePlusExtra_17.48.2_5.3.12.ipa",
       "localizedDescription": "Cercube with extra features!",
