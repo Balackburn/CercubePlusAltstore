@@ -1,6 +1,11 @@
 # CercubePlusAltstore
 CercubePlusExtra (by Arichorn) source for Altstore
 
+Add : http://gg.gg/13u5vp
+or : https://raw.githubusercontent.com/CercubeSource/CercubePlusAltstore/main/apps.json to Altstore/Sidestore
+
+
+# From : 
 https://github.com/arichorn/CercubePlusExtra 
 
 # Credits
