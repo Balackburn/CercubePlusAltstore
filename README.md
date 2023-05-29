@@ -1,8 +1,8 @@
-# CercubePlusAltstore
-CercubePlusExtra (by @arichorn) source for Altstore
+# CercubePlusScarlet
+CercubePlusExtra (by @arichorn) source for Scarlet
 
-Add : http://gg.gg/13u5vp
-or : https://raw.githubusercontent.com/CercubeSource/CercubePlusAltstore/main/apps.json to Altstore/Sidestore
+Add : http://gg.gg/148fc5
+or : https://raw.githubusercontent.com/arichorn/CercubePlusScarlet/main/apps.json to Scarlet
 
 
 # From : 
