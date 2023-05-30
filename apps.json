@@ -3,7 +3,7 @@
     "version": "18.20.3",
     "down": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.20.3-5.3.11/CercubePlusExtra_18.20.3_5.3.11.ipa",
     "dev": "Alfhaily & Arichorn",
-    "icon": "https://raw.githubusercontent.com/CercubeSource/CercubePlusAltstore/main/Youtube_logo-512.png",
+    "icon": "https://raw.githubusercontent.com/arichorn/CercubePlusScarlet/main/Youtube_logo-512.png",
     "category": "tweak",
     "description": "Cercube with extra features!",
     "bundleID": "com.google.ios.youtube",
