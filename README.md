@@ -1,8 +1,7 @@
 # CercubePlusAltstore
 CercubePlusExtra (by @arichorn) source for Altstore
 
-Add : http://gg.gg/13u5vp
-or : https://raw.githubusercontent.com/CercubeSource/CercubePlusAltstore/main/apps.json to Altstore/Sidestore
+Add : https://therealfoxster.github.io/altsource-viewer/app.html?source=https://raw.githubusercontent.com/CercubeSource/CercubePlusAltstore/main/apps.json&id=com.google.ios.youtube to Altstore/Sidestore
 
 
 # From : 
