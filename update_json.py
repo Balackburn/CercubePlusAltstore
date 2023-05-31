@@ -16,6 +16,9 @@ def fetch_latest_release(repo_url, keyword):
     raise ValueError(f"No release found containing the keyword '{keyword}'.")
 
 # Update the JSON file with the fetched data
+def remove_html_tags(text):
+    return re.sub('<[^<]+?>', '', text)
+
 def update_json_file(json_file, fetched_data):
     with open(json_file, "r") as file:
         data = json.load(file)
@@ -28,10 +31,13 @@ def update_json_file(json_file, fetched_data):
     description = fetched_data["body"]
     keyword = "CercubePlusExtra Release Information"
     if keyword in description:
-        app["versionDescription"] = description.split(keyword, 1)[1].strip()
-    else:
-        app["versionDescription"] = description
+        description = description.split(keyword, 1)[1].strip()
 
+    description = remove_html_tags(description)
+    description = description.replace("**", "")
+    description = description.replace("-", "•")
+
+    app["versionDescription"] = description
     app["downloadURL"] = fetched_data["assets"][0]["browser_download_url"]
 
     with open(json_file, "w") as file:
