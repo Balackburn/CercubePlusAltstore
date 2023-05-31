@@ -185,5 +185,5 @@ Special thanks to all the developers who have contributed to CercubePlus!
 
 16. **LowContrastMode**: makes the YouTube Interface Low Contrast as possible to make it easier on the eyes.
 
-any many more...
+and many more...
 </details>
