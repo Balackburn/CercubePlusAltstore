@@ -3,7 +3,7 @@ CercubePlusExtra (by @arichorn) source for Altstore
 
 [Add to Altstore/Sidestore](https://tinyurl.com/CercubePlusSource)
 
-[View source online](https://therealfoxster.github.io/altsource-viewer/app.html?source=https://raw.githubusercontent.com/CercubeSource/CercubePlusAltstore/main/apps.json&id=com.google.ios.youtube)
+[View source online](https://therealfoxster.github.io/altsource-viewer/app.html?source=https://raw.githubusercontent.com/Balackburn/CercubePlusAltstore/main/apps.json&id=com.google.ios.youtube)
 
 # From : 
 https://github.com/arichorn/CercubePlusExtra 
