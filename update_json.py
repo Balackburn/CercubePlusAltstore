@@ -24,7 +24,7 @@ def update_json_file(json_file, fetched_data):
     version = re.search(r"(\d+\.\d+\.\d+)", fetched_data["tag_name"]).group(1)
     app["version"] = version
     app["versionDate"] = fetched_data["published_at"]
-    app["versionDescription"] = f"{fetched_data['name']} : The changelog can be found at\n{fetched_data['html_url']}"
+    app["versionDescription"] = fetched_data["body"]
     app["downloadURL"] = fetched_data["assets"][0]["browser_download_url"]
 
     with open(json_file, "w") as file:
