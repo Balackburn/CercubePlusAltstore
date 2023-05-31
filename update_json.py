@@ -36,6 +36,7 @@ def update_json_file(json_file, fetched_data):
     description = remove_html_tags(description)
     description = description.replace("**", "")
     description = description.replace("-", "•")
+    description = description.replace("`", "\\\"")
 
     app["versionDescription"] = description
     app["downloadURL"] = fetched_data["assets"][0]["browser_download_url"]
