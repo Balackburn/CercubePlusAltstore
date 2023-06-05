@@ -16,8 +16,10 @@ def fetch_latest_release(repo_url, keyword):
     raise ValueError(f"No release found containing the keyword '{keyword}'.")
 
 # Update the JSON file with the fetched data
-def remove_html_tags(text):
-    return re.sub('<[^<]+?>', '', text)
+def remove_tags(text):
+    text = re.sub('<[^<]+?>', '', text)  # Remove HTML tags
+    text = re.sub(r'#{1,6}\s?', '', text)  # Remove markdown header tags
+    return text
 
 def update_json_file(json_file, fetched_data):
     with open(json_file, "r") as file:
@@ -33,7 +35,7 @@ def update_json_file(json_file, fetched_data):
     if keyword in description:
         description = description.split(keyword, 1)[1].strip()
 
-    description = remove_html_tags(description)
+    description = remove_tags(description)
     description = re.sub(r'\*{2}', '', description)
     description = re.sub(r'-', '•', description)
     description = re.sub(r'`', '"', description)
