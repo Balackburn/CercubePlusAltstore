@@ -47,7 +47,7 @@ def update_json_file(json_file, fetched_data):
         
 # Main function
 def main():
-    repo_url = "arichorn/YouTubeRebornPlus"
+    repo_url = "Balackburn/CercubePlusExtra"
     json_file = "apps.json"
     keyword = "CercubePlusExtra"
 
