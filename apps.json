@@ -9,13 +9,13 @@
       "developerName": "Alfhaily & Arichorn",
       "subtitle": "Cercube with extra features!",
       "version": "18.22.9",
-      "versionDate": "2023-06-06T05:00:19Z",
-      "versionDescription": "Current YouTube IPA: \"v18.22.9\"\r\nCurrent Cercube Version: \"v5.3.11\"\r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE F1: (June 6th 2023)\r\n\u2022 Updated YouTube from \"v18.20.3\" to \"v18.22.9\"\r\n\u2022 Updated LowContrastMode (arichorn)\r\n   \u2022 Added \"UILabel\" Support\r\n   \u2022 Added \"ASyncDisplayKit\" Support\r\n\u2022 Added Submodules\r\n   \u2022 YTHoldForSpeed\r\n      \u2022 add a tweak that adds a hold gesture on the video player to quickly toggle the playback speed.\r\n   \u2022 DontEatMyContent\r\n      \u2022 a tweak that removes Dynamic Island/Notch on specific devices\r\n\u2022 Updated Submodules\r\n   \u2022 iSponsorBlock v1.1.2\r\n     \u2022 Fixed Icons not appearing\r\n     \u2022 Added Changeable iSponsorBlock API\r\n     \u2022 Added Changeable iSponsorBlock User ID\r\n     \u2022 Bug Fixes (etc)\r\n   \u2022 YTUHD v1.4.0\r\n     \u2022 Improvements\r\n     \u2022 Bug Fixes (etc)\r\n\r\nIssues in this Release:\r\n\r\n\u2022 Options \u201cEnable Share Button\u201d & \u201cEnable \u2018Save to Playlist\u2019 Button\u201d don\u2019t work correctly.\r\n\u2022 [Cercube Exclusive] \u2022 Cercube Download Tab & Cercube Menu not working with YouTube's New Dark Mode\r\n\u2022 Live Videos/Streams Crashing / Live Chat Messages Invisible (39)\r\n\u2022 Hide Shorts Videos not working Correctly (38)\r\n\u2022 OLED/OLD Dark Theme Options Not Working (Workaround: use this version of CercubePlusExtra: v18.20.3\u20225.3.11)",
-      "downloadURL": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.22.9-5.3.11/CercubePlusExtra_18.22.9_5.3.11.ipa",
+      "versionDate": "2023-06-06T15:46:43Z",
+      "versionDescription": "Current YouTube IPA: \"v18.22.9\"  \r\nCurrent Cercube Version: \"v5.3.11\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.22.9\u20225.3.11: (June 6th 2023)\r\n\r\n\u2022 Updated YouTube from \"v18.18.2\" to \"v18.22.9\" \r\n\u2022 I'm now using my own fork of CercubePlusExtra\r\n\u2022 Update source .ipa file with real latest version, the one from decrypt.day was not v18.22.9 \r\n\r\nIssues in this Release:\r\n\u2022 Options \u201cEnable Share Button\u201d & \u201cEnable \u2018Save to Playlist\u2019 Button\u201d don\u2019t work correctly.\r\n\u2022 [Cercube Exclusive] \u2022 Cercube Download Tab & Cercube Menu not working with YouTube's New Dark Mode\r\n\u2022 Live Videos/Streams Crashing / Live Chat Messages Invisible ([39](https://github.com/arichorn/YouTubeRebornPlus/issues/39))\r\n\u2022 Hide Shorts Videos not working Correctly ([38](https://github.com/arichorn/YouTubeRebornPlus/issues/38))",
+      "downloadURL": "https://github.com/Balackburn/CercubePlusExtra/releases/download/v18.22.9-5.3.11-%283%29/CercubePlus_18.22.9_5.3.11.ipa",
       "localizedDescription": "Cercube with extra features! \n\nSupercharge your YouTube experience with +15 tweaks: \n\n\u2022 Cercube: Ad-blocking & background playback\n\u2022 iSponsorBlock: Skip sponsor ads\n\u2022 YouPiP: Native PiP mode\n\u2022 YTUHD: 2K & 4K video quality\n\u2022 YouTube Dislike Return: Reinstate dislike counts\n\u2022 YTClassicVideoQuality: Old video quality selector\n\u2022 YTNoHoverCards: Disable suggested videos\n\u2022 YTABGoodies: Disable A/B testing features\n\u2022 NOYTPremium: Remove Premium upsell alerts\n\u2022 YTSpeed: Add 2.25x to 4x playback speeds\n\u2022 YTMiniplayerEnabler: Enable Miniplayer\n\u2022 DontEatMyContent: Prevent notch issues\n\u2022 YTShortsProgress: Enable progress bar for Shorts\n\u2022 YTABConfig: Control A/B testing flags\n\u2022 YouMute: Mute/unmute videos\n\u2022 LowContrastMode: Reduce interface contrast\n\u2022 And many more...",
       "iconURL": "https://raw.githubusercontent.com/Balackburn/CercubePlusAltstore/main/Youtube_logo-512.png",
       "tintColor": "e22a41",
-      "size": 106925376,
+      "size": 98185027,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Balackburn/CercubePlusAltstore/main/screenshots/1.png",
         "https://raw.githubusercontent.com/Balackburn/CercubePlusAltstore/main/screenshots/2.png",
@@ -26,72 +26,71 @@
         "https://raw.githubusercontent.com/Balackburn/CercubePlusAltstore/main/screenshots/7.png",
         "https://raw.githubusercontent.com/Balackburn/CercubePlusAltstore/main/screenshots/8.png"
       ],
-      
-        "appPermissions": {
-          "entitlements": [
-            {
-              "name": "com.apple.security.application-groups"
-            },
-            {
-              "name": "com.apple.developer.associated-domains"
-            },
-            {
-              "name": "get-task-allow"
-            },
-            {
-              "name": "com.apple.developer.device-information.user-assigned-device-name"
-            },
-            {
-              "name": "com.apple.developer.group-session"
-            },
-            {
-              "name": "keychain-access-groups"
-            },
-            {
-              "name": "com.apple.developer.networking.multicast"
-            },
-            {
-              "name": "aps-environment"
-            },
-            {
-              "name": "com.apple.developer.networking.wifi-info"
-            }
-          ],
-          "privacy": [
-            {
-              "name": "AppleMusic",
-              "usageDescription": "Cercube requires access to your Apple Music library."
-            },
-            {
-              "name": "BluetoothPeripheral",
-              "usageDescription": "Cercube requires Bluetooth access to connect with nearby peripherals."
-            },
-            {
-              "name": "Camera",
-              "usageDescription": "Cercube requires access to the camera to capture photos and videos."
-            },
-            {
-              "name": "Contacts",
-              "usageDescription": "Cercube requires access to your contacts to help you share content with your friends."
-            },
-            {
-              "name": "LocalNetwork",
-              "usageDescription": "Cercube requires local network access to connect and communicate with nearby devices."
-            },
-            {
-              "name": "LocationWhenInUse",
-              "usageDescription": "Cercube requires access to your location while using the app to provide personalized recommendations."
-            },
-            {
-              "name": "Microphone",
-              "usageDescription": "Cercube requires access to your microphone to record audio."
-            },
-            {
-              "name": "PhotoLibrary",
-              "usageDescription": "Cercube requires access to your Photo Library to save photos and videos."
-            }
-          ]
-        }
+      "appPermissions": {
+        "entitlements": [
+          {
+            "name": "com.apple.security.application-groups"
+          },
+          {
+            "name": "com.apple.developer.associated-domains"
+          },
+          {
+            "name": "get-task-allow"
+          },
+          {
+            "name": "com.apple.developer.device-information.user-assigned-device-name"
+          },
+          {
+            "name": "com.apple.developer.group-session"
+          },
+          {
+            "name": "keychain-access-groups"
+          },
+          {
+            "name": "com.apple.developer.networking.multicast"
+          },
+          {
+            "name": "aps-environment"
+          },
+          {
+            "name": "com.apple.developer.networking.wifi-info"
+          }
+        ],
+        "privacy": [
+          {
+            "name": "AppleMusic",
+            "usageDescription": "Cercube requires access to your Apple Music library."
+          },
+          {
+            "name": "BluetoothPeripheral",
+            "usageDescription": "Cercube requires Bluetooth access to connect with nearby peripherals."
+          },
+          {
+            "name": "Camera",
+            "usageDescription": "Cercube requires access to the camera to capture photos and videos."
+          },
+          {
+            "name": "Contacts",
+            "usageDescription": "Cercube requires access to your contacts to help you share content with your friends."
+          },
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "Cercube requires local network access to connect and communicate with nearby devices."
+          },
+          {
+            "name": "LocationWhenInUse",
+            "usageDescription": "Cercube requires access to your location while using the app to provide personalized recommendations."
+          },
+          {
+            "name": "Microphone",
+            "usageDescription": "Cercube requires access to your microphone to record audio."
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "Cercube requires access to your Photo Library to save photos and videos."
+          }
+        ]
+      }
     }
   ]
 }
