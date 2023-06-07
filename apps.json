@@ -36,12 +36,6 @@
               "name": "com.apple.developer.associated-domains"
             },
             {
-              "name": "com.apple.developer.coremedia.allow-alternate-video-decoder-selection"
-            },
-            {
-              "name": "com.apple.developer.usernotifications.time-sensitive"
-            },
-            {
               "name": "get-task-allow"
             },
             {
