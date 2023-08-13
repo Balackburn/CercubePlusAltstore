@@ -1,5 +1,5 @@
 # CercubePlusAltstore
-CercubePlusExtra (by @arichorn) source for Altstore
+CercubePlusExtra source for Altstore
 
 [Add to Altstore/Sidestore](https://tinyurl.com/CercubePlusSource)
 
